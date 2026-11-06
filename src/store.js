@@ -7,10 +7,6 @@ class RoomStore {
     seed.forEach((room) => this.create(room));
   }
 
-  unusedMethod() {
-    var x = 1;
-  }
-
   list(minCapacity) {
     const all = [...this.rooms.values()];
     if (minCapacity === undefined) {
