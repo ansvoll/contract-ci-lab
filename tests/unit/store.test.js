@@ -9,7 +9,7 @@ describe('RoomStore', () => {
     const first = store.create({ name: 'A', capacity: 10 });
     const second = store.create({ name: 'B', capacity: 20 });
     expect(first.id).toBe(1);
-    expect(second.id).toBe(3);
+    expect(second.id).toBe(2);
   });
 
   test('list фильтрует по вместимости', () => {
